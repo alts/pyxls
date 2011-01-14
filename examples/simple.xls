@@ -18,7 +18,20 @@
 <Cell><ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Column4</ss:Data>
 </Cell>
 </Row>
-<Row><Cell><ss:Data ss:Type="Number"></ss:Data>
+<Row><Cell><ss:Data ss:Type="Number">1</ss:Data>
+</Cell>
+<Cell><ss:Data ss:Type="Number">2</ss:Data>
+</Cell>
+<Cell><ss:Data ss:Type="Number">3</ss:Data>
+</Cell>
+<Cell><ss:Data ss:Type="Number">4</ss:Data>
+</Cell>
+<Cell><ss:Data ss:Type="Number">5</ss:Data>
+</Cell>
+</Row>
+<Row><Cell><ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">&#12518;&#12491;&#12467;&#12540;&#12489;</ss:Data>
+</Cell>
+<Cell><ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Friendly!</ss:Data>
 </Cell>
 </Row>
 </Table>
