@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Workbook xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:x="urn:schemas-microsoft-com:office:office"><Worksheet ss:Name="My First Spreadsheet"><Table><Row><Cell><ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">This is the top row!</ss:Data>
+</Cell>
+</Row>
+<Row><Cell><ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Lists work too!</ss:Data>
+</Cell>
+</Row>
+<Row></Row>
+<Row><Cell><ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">That empty tuple is a blank row</ss:Data>
+</Cell>
+</Row>
+<Row><Cell><ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Column 1</ss:Data>
+</Cell>
+<Cell><ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Column2</ss:Data>
+</Cell>
+<Cell><ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Column3</ss:Data>
+</Cell>
+<Cell><ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Column4</ss:Data>
+</Cell>
+</Row>
+<Row><Cell><ss:Data ss:Type="Number"></ss:Data>
+</Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

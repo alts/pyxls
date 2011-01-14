@@ -82,14 +82,14 @@ class TableNode(BaseNode):
                         elif item is None:
                             inner_data = None
                         else:
-                            raise Exception("Bad item sent to Table: %s" % str(item))
+                            raise Exception(u"Bad item sent to Table: %s" % str(item))
 
                         with self.cell():
                             if inner_data:
                                 with inner_data:
-                                    self.writer.write(unicode(
-                                        inner_data.content().encode('ascii', 'xmlcharrefreplace')
-                                    ))
+                                    self.writer.write(
+                                        (u'%s' % inner_data.content().decode('utf-8')).encode('ascii', 'xmlcharrefreplace')
+                                    )
 
 
 class RowNode(BaseNode):
