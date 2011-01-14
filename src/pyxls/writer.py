@@ -22,8 +22,8 @@ class ExcelWriter(nodes.NodeSpawner):
             import gzip
             open_func = gzip.open
 
-        self.file = open_func(self.path, 'w')
-        self.write("<?xml version=\"1.0\"?>\n")
+        self.file = open_func(self.path, 'w+b')
+        self.write(u"<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n")
         self.workbook = self.make_node('workbook', {
             "xmlns": "urn:schemas-microsoft-com:office:spreadsheet",
             "xmlns:o": "urn:schemas-microsoft-com:office:office",
@@ -39,4 +39,4 @@ class ExcelWriter(nodes.NodeSpawner):
         self.file.close()
 
     def write(self, content):
-        self.file.write(content)
+        self.file.write(unicode(content).encode('utf-8'))

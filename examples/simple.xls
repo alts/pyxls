@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Workbook xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:x="urn:schemas-microsoft-com:office:office"><Worksheet ss:Name="My First Spreadsheet"><Table><Row><Cell><ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">This is the top row!</ss:Data>
 </Cell>
 </Row>
@@ -29,7 +29,7 @@
 <Cell><ss:Data ss:Type="Number">5</ss:Data>
 </Cell>
 </Row>
-<Row><Cell><ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">&#12518;&#12491;&#12467;&#12540;&#12489;</ss:Data>
+<Row><Cell><ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">ユニコード</ss:Data>
 </Cell>
 <Cell><ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Friendly!</ss:Data>
 </Cell>

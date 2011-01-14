@@ -88,7 +88,7 @@ class TableNode(BaseNode):
                             if inner_data:
                                 with inner_data:
                                     self.writer.write(
-                                        (u'%s' % inner_data.content()).encode('ascii', 'xmlcharrefreplace')
+                                        (u'%s' % inner_data.content())
                                     )
 
 
